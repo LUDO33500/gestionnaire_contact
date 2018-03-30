@@ -14,18 +14,18 @@ var Contact = {
 
 };
 
-var Contact_1 = Object.create(Contact);
-Contact_1.init("LEVISSE", "Carole");
-var Contact_2 = Object.create(Contact);
-Contact_2.init("NELSON", "Mélodie");
+var contact_1 = Object.create(Contact);
+contact_1.init("LEVISSE", "Carole");
+var contact_2 = Object.create(Contact);
+contact_2.init("NELSON", "Mélodie");
 
-Contact_1.description();
-Contact_2.description();
+contact_1.description();
+contact_2.description();
 
 //creation tableau contact
 var Tableau_Contacts = [];
-Tableau_Contacts.push(Contact_1);
-Tableau_Contacts.push(Contact_2);
+Tableau_Contacts.push(contact_1);
+Tableau_Contacts.push(contact_2);
 
 //mon programme
 
